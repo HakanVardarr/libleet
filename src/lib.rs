@@ -61,4 +61,14 @@ mod test {
     fn question740() {
         assert_eq!(Solution::delete_and_earn(vec![3, 4, 2]), 6);
     }
+
+    #[test]
+    fn question56() {
+        assert_eq!(Solution::can_jump(vec![2, 3, 0, 1, 4]), true);
+    }
+
+    #[test]
+    fn question45() {
+        assert_eq!(Solution::jump(vec![2, 3, 0, 1, 4]), 2);
+    }
 }

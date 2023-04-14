@@ -1,7 +1,7 @@
 use super::Solution;
 
 impl Solution {
-    pub fn rob2(mut nums: Vec<i32>) -> i32 {
+    pub fn rob2(nums: Vec<i32>) -> i32 {
         if nums.len() == 1 {
             return nums[0];
         }
